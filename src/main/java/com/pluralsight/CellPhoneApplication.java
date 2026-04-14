@@ -26,6 +26,11 @@ public class CellPhoneApplication {
         phone.setOwner(scanner.nextLine());
 
 
+        System.out.println("Serial number: " + phone.getSerialNumber());
+        System.out.println("Phone model: " + phone.getModel());
+        System.out.println("Phone carrier: " + phone.getPhoneNumber());
+        System.out.println("Phone owner: " + phone.getOwner());
 
+        scanner.close();
     }
 }

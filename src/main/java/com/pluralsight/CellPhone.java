@@ -12,7 +12,7 @@ public class CellPhone {
 
 
     // constructor
-    public CellPhone(String serialNumber, String model, String carrier, String phoneNumber, String owner) {
+    public CellPhone() {
         serialNumber = 0;
         model = "";
         carrier = "";
